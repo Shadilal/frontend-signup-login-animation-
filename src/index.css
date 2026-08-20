@@ -1,0 +1,14 @@
+body{
+  background-color: black;
+}#main-container{
+  position:relative
+}#signup ,#login{
+  position:absolute;
+  transition: top 0.9s ease-in-out;
+}#login{
+  top: 600px;
+}#signup{
+     top: 0;
+}*{
+  color: white;
+}
